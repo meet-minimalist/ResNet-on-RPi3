@@ -46,5 +46,5 @@ g++ -std=c++17 -I./onnxruntime-linux-x64-1.22.0/include -I./deps/ -L./onnxruntim
 | 3 | [ResNet50 - QDQ](https://github.com/onnx/models/raw/refs/heads/main/validated/vision/classification/resnet/model/resnet50-v1-12-qdq.onnx) | 1.21838 sec |
 
 
-References:
+# References:
 - Ultimate ONNX for Optimizing Deep Learning Models : [Github](https://github.com/ava-orange-education/Ultimate-ONNX-for-Optimizing-Deep-Learning-Models)
