@@ -44,6 +44,7 @@ g++ -std=c++17 -I./onnxruntime-linux-x64-1.22.0/include -I./deps/ -L./onnxruntim
 | 1 | [ResNet50 - FP32](https://github.com/onnx/models/raw/refs/heads/main/validated/vision/classification/resnet/model/resnet50-v1-12.onnx) | 2.57080 sec |
 | 2 | [ResNet50 - INT8](https://github.com/onnx/models/raw/refs/heads/main/validated/vision/classification/resnet/model/resnet50-v1-12-int8.onnx) | 1.16976 sec |
 | 3 | [ResNet50 - QDQ](https://github.com/onnx/models/raw/refs/heads/main/validated/vision/classification/resnet/model/resnet50-v1-12-qdq.onnx) | 1.21838 sec |
+
 Note: The numbers are obtained from Raspberry Pi 3B+ (Bookworm).
 
 
